@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "betplusbr",
+    "builds": [
+      {
+        "src": "Dockerfile",
+        "use": "@vercel/docker"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "/"
+      }
+    ]
+  }
