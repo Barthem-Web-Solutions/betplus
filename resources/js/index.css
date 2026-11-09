@@ -1355,3 +1355,102 @@ input:focus, input:hover
     background-color: transparent;
     border: none;
 }
+
+/* =====================================
+   BETPLUS - TEMA NATALINO PREMIUM
+   ===================================== */
+
+:root {
+    --ci-primary-color: #145333;
+    --ci-primary-opacity-color: rgba(20, 83, 51, 0.20);
+    --ci-secundary-color: #A51F32;
+
+    --ci-gray-dark: #26352D;
+    --ci-gray-light: #D6AD55;
+    --ci-gray-medium: #A6B4AA;
+    --ci-gray-over: #19251E;
+
+    --title-color: #F5F1E7;
+    --text-color: #E6E8E2;
+    --sub-text-color: #A6B4AA;
+
+    --background-color: #101A14;
+    --standard-color: #17251B;
+    --shadow-color: #080F0B;
+
+    --yellow-color: #D6AD55;
+    --yellow-dark-color: #A77C32;
+}
+
+/* Fundo principal */
+:is(.dark .bg-base) {
+    background-color: #101A14 !important;
+}
+
+/* Botões principais */
+.ui-button-blue,
+.btn-primary {
+    background-color: #145333 !important;
+    background-image: linear-gradient(
+        135deg,
+        #145333,
+        #1D7545
+    ) !important;
+    color: #FFFFFF !important;
+}
+
+/* Botões dourados */
+.ui-button-black,
+.ui-button-yellow {
+    background-color: #D6AD55 !important;
+    background-image: linear-gradient(
+        135deg,
+        #A77C32,
+        #D6AD55
+    ) !important;
+    color: #17130B !important;
+}
+
+/* Seleções e destaques */
+.item-selected .active {
+    background: linear-gradient(
+        135deg,
+        #145333,
+        #A51F32
+    ) !important;
+    border-color: #D6AD55 !important;
+}
+
+/* Bordas e seleções */
+.router-link-active,
+.wallet-active {
+    border-color: #D6AD55 !important;
+}
+
+/* Campos de entrada */
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #D6AD55 !important;
+}
+
+/* Destaques de categorias */
+.category-active {
+    border-color: #D6AD55 !important;
+}
+
+/* Cartões */
+:is(.dark .item-game) {
+    background-color: #19271E;
+    border-color: #293D30;
+}
+
+/* Navegação */
+:is(.dark .navtop-color) {
+    background-color: #14251A;
+}
+
+/* Rodapé */
+:is(.dark .footer-color) {
+    background-color: #111B14;
+}
